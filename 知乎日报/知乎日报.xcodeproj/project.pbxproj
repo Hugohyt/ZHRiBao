@@ -1,0 +1,1062 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B34687A1A472733FC7D710A5 /* libPods-知乎日报.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE0E6A3AEE06D22663B987C /* libPods-知乎日报.a */; };
+		F25338912CD8E65E000D30F9 /* 评论.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338902CD8E65E000D30F9 /* 评论.jpg */; };
+		F25338932CD8E663000D30F9 /* 点赞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338922CD8E663000D30F9 /* 点赞.jpg */; };
+		F25338952CD8E667000D30F9 /* 收藏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338942CD8E667000D30F9 /* 收藏.jpg */; };
+		F25338972CD8E66C000D30F9 /* 分享.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338962CD8E66C000D30F9 /* 分享.jpg */; };
+		F253389D2CD8FA5E000D30F9 /* ExtraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F253389C2CD8FA5E000D30F9 /* ExtraModel.m */; };
+		F253389F2CD902B8000D30F9 /* 返回.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F253389E2CD902B8000D30F9 /* 返回.jpg */; };
+		F25338A32CD906BA000D30F9 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338A22CD906BA000D30F9 /* CommentViewController.m */; };
+		F25338A92CDA4938000D30F9 /* LongCommentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338A82CDA4938000D30F9 /* LongCommentsModel.m */; };
+		F25338AC2CDA4940000D30F9 /* ShortCommentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338AB2CDA4940000D30F9 /* ShortCommentsModel.m */; };
+		F25338AF2CDA4975000D30F9 /* LongCommentsSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338AE2CDA4975000D30F9 /* LongCommentsSubModel.m */; };
+		F25338B22CDA50B6000D30F9 /* ShortCommentsSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338B12CDA50B6000D30F9 /* ShortCommentsSubModel.m */; };
+		F25338B82CDA57FD000D30F9 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338B72CDA57FD000D30F9 /* CommentView.m */; };
+		F25338BB2CDCF573000D30F9 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338BA2CDCF573000D30F9 /* CommentCell.m */; };
+		F25338C52CE22E8C000D30F9 /* 知乎日报更多.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338C22CE22E8C000D30F9 /* 知乎日报更多.jpg */; };
+		F25338C72CE22F0D000D30F9 /* 评论回复.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338C62CE22F0D000D30F9 /* 评论回复.jpg */; };
+		F25338C92CE22F6B000D30F9 /* 评论点赞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338C82CE22F6B000D30F9 /* 评论点赞.jpg */; };
+		F25338CD2CE62D19000D30F9 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338CC2CE62D19000D30F9 /* DatabaseManager.m */; };
+		F25338CF2CE9DD63000D30F9 /* 头像.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338CE2CE9DD63000D30F9 /* 头像.jpg */; };
+		F25338D52CE9E05E000D30F9 /* CollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338D42CE9E05E000D30F9 /* CollectionController.m */; };
+		F25338D82CE9E1B9000D30F9 /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338D72CE9E1B9000D30F9 /* CollectionView.m */; };
+		F25338DA2CE9F065000D30F9 /* 已收藏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338D92CE9F064000D30F9 /* 已收藏.jpg */; };
+		F25338DC2CE9F0AF000D30F9 /* 已点赞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338DB2CE9F0AF000D30F9 /* 已点赞.jpg */; };
+		F25338DF2CEA0CDD000D30F9 /* IconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338DE2CEA0CDD000D30F9 /* IconCell.m */; };
+		F25338E22CEA0E5E000D30F9 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338E12CEA0E5E000D30F9 /* ItemCell.m */; };
+		F25338E52CEA112C000D30F9 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338E42CEA112C000D30F9 /* CollectionViewController.m */; };
+		F25338E82CEA115C000D30F9 /* CollectionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338E72CEA115C000D30F9 /* CollectionTableView.m */; };
+		F25338EB2CEA147E000D30F9 /* CollectionArtcleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338EA2CEA147E000D30F9 /* CollectionArtcleCell.m */; };
+		F25338EE2CEAE61C000D30F9 /* CollectionWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338ED2CEAE61C000D30F9 /* CollectionWebviewController.m */; };
+		F25338F12CEAE630000D30F9 /* CollectionWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = F25338F02CEAE630000D30F9 /* CollectionWebview.m */; };
+		F25338F32CEB64F2000D30F9 /* 选择.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338F22CEB64F2000D30F9 /* 选择.jpg */; };
+		F25338F52CEDFB43000D30F9 /* 评论已点赞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25338F42CEDFB43000D30F9 /* 评论已点赞.jpg */; };
+		F2AA6E562CD3A5280071D43C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA6E552CD3A5280071D43C /* WebViewController.m */; };
+		F2AA6E592CD73F980071D43C /* webView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA6E582CD73F980071D43C /* webView.m */; };
+		F2AA6E5C2CD79B480071D43C /* TopWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA6E5B2CD79B480071D43C /* TopWebView.m */; };
+		F2AA6E5F2CD79B530071D43C /* TopWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA6E5E2CD79B530071D43C /* TopWebViewController.m */; };
+		F2AC57032CC7DB4500A46099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57022CC7DB4500A46099 /* AppDelegate.m */; };
+		F2AC57062CC7DB4500A46099 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57052CC7DB4500A46099 /* SceneDelegate.m */; };
+		F2AC57092CC7DB4500A46099 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57082CC7DB4500A46099 /* ViewController.m */; };
+		F2AC570C2CC7DB4500A46099 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F2AC570B2CC7DB4500A46099 /* Base */; };
+		F2AC570E2CC7DB4700A46099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AC570D2CC7DB4700A46099 /* Assets.xcassets */; };
+		F2AC57112CC7DB4700A46099 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F2AC57102CC7DB4700A46099 /* Base */; };
+		F2AC57142CC7DB4700A46099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57132CC7DB4700A46099 /* main.m */; };
+		F2AC571E2CC7DB4700A46099 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC571D2CC7DB4700A46099 /* ____Tests.m */; };
+		F2AC57282CC7DB4700A46099 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57272CC7DB4700A46099 /* ____UITests.m */; };
+		F2AC572A2CC7DB4700A46099 /* ____UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57292CC7DB4700A46099 /* ____UITestsLaunchTests.m */; };
+		F2AC573B2CC7DD2C00A46099 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC573A2CC7DD2C00A46099 /* HomeView.m */; };
+		F2AC57412CC7DD7E00A46099 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57402CC7DD7E00A46099 /* HomeViewController.m */; };
+		F2AC57442CC7DD9700A46099 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57432CC7DD9700A46099 /* HomeModel.m */; };
+		F2AC57472CC7E37700A46099 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57462CC7E37700A46099 /* Manager.m */; };
+		F2AC574A2CCA67F300A46099 /* ScrollerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57492CCA67F300A46099 /* ScrollerCell.m */; };
+		F2AC574D2CCA680300A46099 /* ArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC574C2CCA680300A46099 /* ArticleCell.m */; };
+		F2AC57502CCA7DF200A46099 /* SubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC574F2CCA7DF200A46099 /* SubModel.m */; };
+		F2AC57532CCA8CB000A46099 /* TopSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57522CCA8CB000A46099 /* TopSubModel.m */; };
+		F2AC57562CD1099200A46099 /* BeforeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57552CD1099200A46099 /* BeforeModel.m */; };
+		F2AC57592CD109C200A46099 /* BeforeSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AC57582CD109C200A46099 /* BeforeSubModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2AC571A2CC7DB4700A46099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2AC56F62CC7DB4500A46099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2AC56FD2CC7DB4500A46099;
+			remoteInfo = "知乎日报";
+		};
+		F2AC57242CC7DB4700A46099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2AC56F62CC7DB4500A46099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2AC56FD2CC7DB4500A46099;
+			remoteInfo = "知乎日报";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE0E6A3AEE06D22663B987C /* libPods-知乎日报.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-知乎日报.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DB2E8F1C3B3EFB89E29C95 /* Pods-知乎日报.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-知乎日报.debug.xcconfig"; path = "Target Support Files/Pods-知乎日报/Pods-知乎日报.debug.xcconfig"; sourceTree = "<group>"; };
+		CFD1786EA1A84083FA5E6D20 /* Pods-知乎日报.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-知乎日报.release.xcconfig"; path = "Target Support Files/Pods-知乎日报/Pods-知乎日报.release.xcconfig"; sourceTree = "<group>"; };
+		F25338902CD8E65E000D30F9 /* 评论.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "评论.jpg"; sourceTree = "<group>"; };
+		F25338922CD8E663000D30F9 /* 点赞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "点赞.jpg"; sourceTree = "<group>"; };
+		F25338942CD8E667000D30F9 /* 收藏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "收藏.jpg"; sourceTree = "<group>"; };
+		F25338962CD8E66C000D30F9 /* 分享.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享.jpg"; sourceTree = "<group>"; };
+		F253389B2CD8FA5E000D30F9 /* ExtraModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtraModel.h; sourceTree = "<group>"; };
+		F253389C2CD8FA5E000D30F9 /* ExtraModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraModel.m; sourceTree = "<group>"; };
+		F253389E2CD902B8000D30F9 /* 返回.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "返回.jpg"; sourceTree = "<group>"; };
+		F25338A12CD906BA000D30F9 /* CommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		F25338A22CD906BA000D30F9 /* CommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		F25338A72CDA4938000D30F9 /* LongCommentsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongCommentsModel.h; sourceTree = "<group>"; };
+		F25338A82CDA4938000D30F9 /* LongCommentsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongCommentsModel.m; sourceTree = "<group>"; };
+		F25338AA2CDA4940000D30F9 /* ShortCommentsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortCommentsModel.h; sourceTree = "<group>"; };
+		F25338AB2CDA4940000D30F9 /* ShortCommentsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShortCommentsModel.m; sourceTree = "<group>"; };
+		F25338AD2CDA4975000D30F9 /* LongCommentsSubModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongCommentsSubModel.h; sourceTree = "<group>"; };
+		F25338AE2CDA4975000D30F9 /* LongCommentsSubModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongCommentsSubModel.m; sourceTree = "<group>"; };
+		F25338B02CDA50B6000D30F9 /* ShortCommentsSubModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortCommentsSubModel.h; sourceTree = "<group>"; };
+		F25338B12CDA50B6000D30F9 /* ShortCommentsSubModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShortCommentsSubModel.m; sourceTree = "<group>"; };
+		F25338B62CDA57FD000D30F9 /* CommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		F25338B72CDA57FD000D30F9 /* CommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		F25338B92CDCF573000D30F9 /* CommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		F25338BA2CDCF573000D30F9 /* CommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		F25338C22CE22E8C000D30F9 /* 知乎日报更多.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "知乎日报更多.jpg"; path = "../../../../../Downloads/知乎日报更多.jpg"; sourceTree = "<group>"; };
+		F25338C62CE22F0D000D30F9 /* 评论回复.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "评论回复.jpg"; sourceTree = "<group>"; };
+		F25338C82CE22F6B000D30F9 /* 评论点赞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "评论点赞.jpg"; sourceTree = "<group>"; };
+		F25338CB2CE62D19000D30F9 /* DatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		F25338CC2CE62D19000D30F9 /* DatabaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		F25338CE2CE9DD63000D30F9 /* 头像.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像.jpg"; sourceTree = "<group>"; };
+		F25338D32CE9E05E000D30F9 /* CollectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionController.h; sourceTree = "<group>"; };
+		F25338D42CE9E05E000D30F9 /* CollectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionController.m; sourceTree = "<group>"; };
+		F25338D62CE9E1B9000D30F9 /* CollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionView.h; sourceTree = "<group>"; };
+		F25338D72CE9E1B9000D30F9 /* CollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
+		F25338D92CE9F064000D30F9 /* 已收藏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "已收藏.jpg"; sourceTree = "<group>"; };
+		F25338DB2CE9F0AF000D30F9 /* 已点赞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "已点赞.jpg"; sourceTree = "<group>"; };
+		F25338DD2CEA0CDD000D30F9 /* IconCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconCell.h; sourceTree = "<group>"; };
+		F25338DE2CEA0CDD000D30F9 /* IconCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconCell.m; sourceTree = "<group>"; };
+		F25338E02CEA0E5E000D30F9 /* ItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		F25338E12CEA0E5E000D30F9 /* ItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		F25338E32CEA112C000D30F9 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		F25338E42CEA112C000D30F9 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		F25338E62CEA115C000D30F9 /* CollectionTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionTableView.h; sourceTree = "<group>"; };
+		F25338E72CEA115C000D30F9 /* CollectionTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionTableView.m; sourceTree = "<group>"; };
+		F25338E92CEA147E000D30F9 /* CollectionArtcleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionArtcleCell.h; sourceTree = "<group>"; };
+		F25338EA2CEA147E000D30F9 /* CollectionArtcleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionArtcleCell.m; sourceTree = "<group>"; };
+		F25338EC2CEAE61C000D30F9 /* CollectionWebviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionWebviewController.h; sourceTree = "<group>"; };
+		F25338ED2CEAE61C000D30F9 /* CollectionWebviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionWebviewController.m; sourceTree = "<group>"; };
+		F25338EF2CEAE630000D30F9 /* CollectionWebview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionWebview.h; sourceTree = "<group>"; };
+		F25338F02CEAE630000D30F9 /* CollectionWebview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionWebview.m; sourceTree = "<group>"; };
+		F25338F22CEB64F2000D30F9 /* 选择.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择.jpg"; sourceTree = "<group>"; };
+		F25338F42CEDFB43000D30F9 /* 评论已点赞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "评论已点赞.jpg"; sourceTree = "<group>"; };
+		F2AA6E542CD3A5280071D43C /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F2AA6E552CD3A5280071D43C /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F2AA6E572CD73F980071D43C /* webView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webView.h; sourceTree = "<group>"; };
+		F2AA6E582CD73F980071D43C /* webView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webView.m; sourceTree = "<group>"; };
+		F2AA6E5A2CD79B480071D43C /* TopWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopWebView.h; sourceTree = "<group>"; };
+		F2AA6E5B2CD79B480071D43C /* TopWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopWebView.m; sourceTree = "<group>"; };
+		F2AA6E5D2CD79B530071D43C /* TopWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopWebViewController.h; sourceTree = "<group>"; };
+		F2AA6E5E2CD79B530071D43C /* TopWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopWebViewController.m; sourceTree = "<group>"; };
+		F2AC56FE2CC7DB4500A46099 /* 知乎日报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "知乎日报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AC57012CC7DB4500A46099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2AC57022CC7DB4500A46099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2AC57042CC7DB4500A46099 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F2AC57052CC7DB4500A46099 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F2AC57072CC7DB4500A46099 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2AC57082CC7DB4500A46099 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2AC570B2CC7DB4500A46099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2AC570D2CC7DB4700A46099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2AC57102CC7DB4700A46099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2AC57122CC7DB4700A46099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AC57132CC7DB4700A46099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2AC57192CC7DB4700A46099 /* 知乎日报Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "知乎日报Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AC571D2CC7DB4700A46099 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		F2AC57232CC7DB4700A46099 /* 知乎日报UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "知乎日报UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AC57272CC7DB4700A46099 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		F2AC57292CC7DB4700A46099 /* ____UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		F2AC57392CC7DD2C00A46099 /* HomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		F2AC573A2CC7DD2C00A46099 /* HomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		F2AC573F2CC7DD7E00A46099 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F2AC57402CC7DD7E00A46099 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F2AC57422CC7DD9700A46099 /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		F2AC57432CC7DD9700A46099 /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		F2AC57452CC7E37700A46099 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		F2AC57462CC7E37700A46099 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		F2AC57482CCA67F300A46099 /* ScrollerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollerCell.h; sourceTree = "<group>"; };
+		F2AC57492CCA67F300A46099 /* ScrollerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollerCell.m; sourceTree = "<group>"; };
+		F2AC574B2CCA680300A46099 /* ArticleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleCell.h; sourceTree = "<group>"; };
+		F2AC574C2CCA680300A46099 /* ArticleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleCell.m; sourceTree = "<group>"; };
+		F2AC574E2CCA7DF200A46099 /* SubModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubModel.h; sourceTree = "<group>"; };
+		F2AC574F2CCA7DF200A46099 /* SubModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubModel.m; sourceTree = "<group>"; };
+		F2AC57512CCA8CB000A46099 /* TopSubModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopSubModel.h; sourceTree = "<group>"; };
+		F2AC57522CCA8CB000A46099 /* TopSubModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopSubModel.m; sourceTree = "<group>"; };
+		F2AC57542CD1099200A46099 /* BeforeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeforeModel.h; sourceTree = "<group>"; };
+		F2AC57552CD1099200A46099 /* BeforeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeforeModel.m; sourceTree = "<group>"; };
+		F2AC57572CD109C200A46099 /* BeforeSubModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeforeSubModel.h; sourceTree = "<group>"; };
+		F2AC57582CD109C200A46099 /* BeforeSubModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeforeSubModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2AC56FB2CC7DB4500A46099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34687A1A472733FC7D710A5 /* libPods-知乎日报.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AC57162CC7DB4700A46099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AC57202CC7DB4700A46099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		513258876C5542413FC5FE3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77DB2E8F1C3B3EFB89E29C95 /* Pods-知乎日报.debug.xcconfig */,
+				CFD1786EA1A84083FA5E6D20 /* Pods-知乎日报.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9501768448AC2CDCCB0C6C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE0E6A3AEE06D22663B987C /* libPods-知乎日报.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25338982CD8F9E4000D30F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2AA6E542CD3A5280071D43C /* WebViewController.h */,
+				F2AA6E552CD3A5280071D43C /* WebViewController.m */,
+				F2AA6E5D2CD79B530071D43C /* TopWebViewController.h */,
+				F2AA6E5E2CD79B530071D43C /* TopWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F25338992CD8F9FA000D30F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2AA6E5A2CD79B480071D43C /* TopWebView.h */,
+				F2AA6E5B2CD79B480071D43C /* TopWebView.m */,
+				F2AA6E572CD73F980071D43C /* webView.h */,
+				F2AA6E582CD73F980071D43C /* webView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F253389A2CD8FA2E000D30F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F253389B2CD8FA5E000D30F9 /* ExtraModel.h */,
+				F253389C2CD8FA5E000D30F9 /* ExtraModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F25338A02CD90658000D30F9 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				F25338A42CDA48F4000D30F9 /* Controller */,
+				F25338A62CDA4915000D30F9 /* View */,
+				F25338A52CDA490E000D30F9 /* Model */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		F25338A42CDA48F4000D30F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F25338A12CD906BA000D30F9 /* CommentViewController.h */,
+				F25338A22CD906BA000D30F9 /* CommentViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F25338A52CDA490E000D30F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F25338A72CDA4938000D30F9 /* LongCommentsModel.h */,
+				F25338A82CDA4938000D30F9 /* LongCommentsModel.m */,
+				F25338AD2CDA4975000D30F9 /* LongCommentsSubModel.h */,
+				F25338AE2CDA4975000D30F9 /* LongCommentsSubModel.m */,
+				F25338AA2CDA4940000D30F9 /* ShortCommentsModel.h */,
+				F25338AB2CDA4940000D30F9 /* ShortCommentsModel.m */,
+				F25338B02CDA50B6000D30F9 /* ShortCommentsSubModel.h */,
+				F25338B12CDA50B6000D30F9 /* ShortCommentsSubModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F25338A62CDA4915000D30F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F25338B92CDCF573000D30F9 /* CommentCell.h */,
+				F25338BA2CDCF573000D30F9 /* CommentCell.m */,
+				F25338B62CDA57FD000D30F9 /* CommentView.h */,
+				F25338B72CDA57FD000D30F9 /* CommentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F25338CA2CE62C83000D30F9 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				F25338CB2CE62D19000D30F9 /* DatabaseManager.h */,
+				F25338CC2CE62D19000D30F9 /* DatabaseManager.m */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		F25338D02CE9DFE0000D30F9 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				F25338D22CE9E03A000D30F9 /* Controller */,
+				F25338D12CE9E02F000D30F9 /* View */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		F25338D12CE9E02F000D30F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F25338D62CE9E1B9000D30F9 /* CollectionView.h */,
+				F25338D72CE9E1B9000D30F9 /* CollectionView.m */,
+				F25338EF2CEAE630000D30F9 /* CollectionWebview.h */,
+				F25338F02CEAE630000D30F9 /* CollectionWebview.m */,
+				F25338DD2CEA0CDD000D30F9 /* IconCell.h */,
+				F25338DE2CEA0CDD000D30F9 /* IconCell.m */,
+				F25338E02CEA0E5E000D30F9 /* ItemCell.h */,
+				F25338E12CEA0E5E000D30F9 /* ItemCell.m */,
+				F25338E62CEA115C000D30F9 /* CollectionTableView.h */,
+				F25338E72CEA115C000D30F9 /* CollectionTableView.m */,
+				F25338E92CEA147E000D30F9 /* CollectionArtcleCell.h */,
+				F25338EA2CEA147E000D30F9 /* CollectionArtcleCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F25338D22CE9E03A000D30F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F25338D32CE9E05E000D30F9 /* CollectionController.h */,
+				F25338D42CE9E05E000D30F9 /* CollectionController.m */,
+				F25338E32CEA112C000D30F9 /* CollectionViewController.h */,
+				F25338E42CEA112C000D30F9 /* CollectionViewController.m */,
+				F25338EC2CEAE61C000D30F9 /* CollectionWebviewController.h */,
+				F25338ED2CEAE61C000D30F9 /* CollectionWebviewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2AA6E4D2CD3A16F0071D43C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F253389A2CD8FA2E000D30F9 /* Model */,
+				F25338982CD8F9E4000D30F9 /* Controller */,
+				F25338992CD8F9FA000D30F9 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F2AA6E602CD7B7920071D43C /* 按钮图片 */ = {
+			isa = PBXGroup;
+			children = (
+				F25338F42CEDFB43000D30F9 /* 评论已点赞.jpg */,
+				F25338962CD8E66C000D30F9 /* 分享.jpg */,
+				F25338942CD8E667000D30F9 /* 收藏.jpg */,
+				F25338D92CE9F064000D30F9 /* 已收藏.jpg */,
+				F25338DB2CE9F0AF000D30F9 /* 已点赞.jpg */,
+				F25338922CD8E663000D30F9 /* 点赞.jpg */,
+				F25338902CD8E65E000D30F9 /* 评论.jpg */,
+				F253389E2CD902B8000D30F9 /* 返回.jpg */,
+				F25338C82CE22F6B000D30F9 /* 评论点赞.jpg */,
+				F25338C62CE22F0D000D30F9 /* 评论回复.jpg */,
+				F25338C22CE22E8C000D30F9 /* 知乎日报更多.jpg */,
+				F25338CE2CE9DD63000D30F9 /* 头像.jpg */,
+				F25338F22CEB64F2000D30F9 /* 选择.jpg */,
+			);
+			path = "按钮图片";
+			sourceTree = "<group>";
+		};
+		F2AC56F52CC7DB4500A46099 = {
+			isa = PBXGroup;
+			children = (
+				F2AC57002CC7DB4500A46099 /* 知乎日报 */,
+				F2AC571C2CC7DB4700A46099 /* 知乎日报Tests */,
+				F2AC57262CC7DB4700A46099 /* 知乎日报UITests */,
+				F2AC56FF2CC7DB4500A46099 /* Products */,
+				513258876C5542413FC5FE3A /* Pods */,
+				B9501768448AC2CDCCB0C6C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2AC56FF2CC7DB4500A46099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC56FE2CC7DB4500A46099 /* 知乎日报.app */,
+				F2AC57192CC7DB4700A46099 /* 知乎日报Tests.xctest */,
+				F2AC57232CC7DB4700A46099 /* 知乎日报UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2AC57002CC7DB4500A46099 /* 知乎日报 */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC57012CC7DB4500A46099 /* AppDelegate.h */,
+				F2AC57022CC7DB4500A46099 /* AppDelegate.m */,
+				F2AC57042CC7DB4500A46099 /* SceneDelegate.h */,
+				F2AC57052CC7DB4500A46099 /* SceneDelegate.m */,
+				F2AC57072CC7DB4500A46099 /* ViewController.h */,
+				F2AC57082CC7DB4500A46099 /* ViewController.m */,
+				F25338CA2CE62C83000D30F9 /* DatabaseManager */,
+				F2AC57382CC7DC8500A46099 /* Manager */,
+				F2AC57362CC7DC3200A46099 /* Home */,
+				F2AA6E4D2CD3A16F0071D43C /* Detail */,
+				F25338A02CD90658000D30F9 /* Comment */,
+				F2AA6E602CD7B7920071D43C /* 按钮图片 */,
+				F25338D02CE9DFE0000D30F9 /* Collection */,
+				F2AC570A2CC7DB4500A46099 /* Main.storyboard */,
+				F2AC570D2CC7DB4700A46099 /* Assets.xcassets */,
+				F2AC570F2CC7DB4700A46099 /* LaunchScreen.storyboard */,
+				F2AC57122CC7DB4700A46099 /* Info.plist */,
+				F2AC57132CC7DB4700A46099 /* main.m */,
+			);
+			path = "知乎日报";
+			sourceTree = "<group>";
+		};
+		F2AC571C2CC7DB4700A46099 /* 知乎日报Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC571D2CC7DB4700A46099 /* ____Tests.m */,
+			);
+			path = "知乎日报Tests";
+			sourceTree = "<group>";
+		};
+		F2AC57262CC7DB4700A46099 /* 知乎日报UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC57272CC7DB4700A46099 /* ____UITests.m */,
+				F2AC57292CC7DB4700A46099 /* ____UITestsLaunchTests.m */,
+			);
+			path = "知乎日报UITests";
+			sourceTree = "<group>";
+		};
+		F2AC57362CC7DC3200A46099 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC573E2CC7DD5E00A46099 /* Model */,
+				F2AC573D2CC7DD4800A46099 /* Controller */,
+				F2AC573C2CC7DD3400A46099 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F2AC57382CC7DC8500A46099 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC57452CC7E37700A46099 /* Manager.h */,
+				F2AC57462CC7E37700A46099 /* Manager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F2AC573C2CC7DD3400A46099 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC57392CC7DD2C00A46099 /* HomeView.h */,
+				F2AC573A2CC7DD2C00A46099 /* HomeView.m */,
+				F2AC57482CCA67F300A46099 /* ScrollerCell.h */,
+				F2AC57492CCA67F300A46099 /* ScrollerCell.m */,
+				F2AC574B2CCA680300A46099 /* ArticleCell.h */,
+				F2AC574C2CCA680300A46099 /* ArticleCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2AC573D2CC7DD4800A46099 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC573F2CC7DD7E00A46099 /* HomeViewController.h */,
+				F2AC57402CC7DD7E00A46099 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F2AC573E2CC7DD5E00A46099 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2AC57422CC7DD9700A46099 /* HomeModel.h */,
+				F2AC57432CC7DD9700A46099 /* HomeModel.m */,
+				F2AC57542CD1099200A46099 /* BeforeModel.h */,
+				F2AC57552CD1099200A46099 /* BeforeModel.m */,
+				F2AC57572CD109C200A46099 /* BeforeSubModel.h */,
+				F2AC57582CD109C200A46099 /* BeforeSubModel.m */,
+				F2AC574E2CCA7DF200A46099 /* SubModel.h */,
+				F2AC574F2CCA7DF200A46099 /* SubModel.m */,
+				F2AC57512CCA8CB000A46099 /* TopSubModel.h */,
+				F2AC57522CCA8CB000A46099 /* TopSubModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2AC56FD2CC7DB4500A46099 /* 知乎日报 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AC572D2CC7DB4700A46099 /* Build configuration list for PBXNativeTarget "知乎日报" */;
+			buildPhases = (
+				AAB3476D20F93CEBC272B208 /* [CP] Check Pods Manifest.lock */,
+				F2AC56FA2CC7DB4500A46099 /* Sources */,
+				F2AC56FB2CC7DB4500A46099 /* Frameworks */,
+				F2AC56FC2CC7DB4500A46099 /* Resources */,
+				D3F8182B5EF92C31B552E0D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "知乎日报";
+			productName = "知乎日报";
+			productReference = F2AC56FE2CC7DB4500A46099 /* 知乎日报.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2AC57182CC7DB4700A46099 /* 知乎日报Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AC57302CC7DB4700A46099 /* Build configuration list for PBXNativeTarget "知乎日报Tests" */;
+			buildPhases = (
+				F2AC57152CC7DB4700A46099 /* Sources */,
+				F2AC57162CC7DB4700A46099 /* Frameworks */,
+				F2AC57172CC7DB4700A46099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2AC571B2CC7DB4700A46099 /* PBXTargetDependency */,
+			);
+			name = "知乎日报Tests";
+			productName = "知乎日报Tests";
+			productReference = F2AC57192CC7DB4700A46099 /* 知乎日报Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2AC57222CC7DB4700A46099 /* 知乎日报UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AC57332CC7DB4700A46099 /* Build configuration list for PBXNativeTarget "知乎日报UITests" */;
+			buildPhases = (
+				F2AC571F2CC7DB4700A46099 /* Sources */,
+				F2AC57202CC7DB4700A46099 /* Frameworks */,
+				F2AC57212CC7DB4700A46099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2AC57252CC7DB4700A46099 /* PBXTargetDependency */,
+			);
+			name = "知乎日报UITests";
+			productName = "知乎日报UITests";
+			productReference = F2AC57232CC7DB4700A46099 /* 知乎日报UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2AC56F62CC7DB4500A46099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F2AC56FD2CC7DB4500A46099 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F2AC57182CC7DB4700A46099 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F2AC56FD2CC7DB4500A46099;
+					};
+					F2AC57222CC7DB4700A46099 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F2AC56FD2CC7DB4500A46099;
+					};
+				};
+			};
+			buildConfigurationList = F2AC56F92CC7DB4500A46099 /* Build configuration list for PBXProject "知乎日报" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2AC56F52CC7DB4500A46099;
+			productRefGroup = F2AC56FF2CC7DB4500A46099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2AC56FD2CC7DB4500A46099 /* 知乎日报 */,
+				F2AC57182CC7DB4700A46099 /* 知乎日报Tests */,
+				F2AC57222CC7DB4700A46099 /* 知乎日报UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2AC56FC2CC7DB4500A46099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25338912CD8E65E000D30F9 /* 评论.jpg in Resources */,
+				F2AC570E2CC7DB4700A46099 /* Assets.xcassets in Resources */,
+				F25338952CD8E667000D30F9 /* 收藏.jpg in Resources */,
+				F25338C72CE22F0D000D30F9 /* 评论回复.jpg in Resources */,
+				F253389F2CD902B8000D30F9 /* 返回.jpg in Resources */,
+				F25338CF2CE9DD63000D30F9 /* 头像.jpg in Resources */,
+				F25338C92CE22F6B000D30F9 /* 评论点赞.jpg in Resources */,
+				F25338DC2CE9F0AF000D30F9 /* 已点赞.jpg in Resources */,
+				F25338932CD8E663000D30F9 /* 点赞.jpg in Resources */,
+				F25338C52CE22E8C000D30F9 /* 知乎日报更多.jpg in Resources */,
+				F25338F32CEB64F2000D30F9 /* 选择.jpg in Resources */,
+				F2AC57112CC7DB4700A46099 /* Base in Resources */,
+				F25338DA2CE9F065000D30F9 /* 已收藏.jpg in Resources */,
+				F25338972CD8E66C000D30F9 /* 分享.jpg in Resources */,
+				F2AC570C2CC7DB4500A46099 /* Base in Resources */,
+				F25338F52CEDFB43000D30F9 /* 评论已点赞.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AC57172CC7DB4700A46099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AC57212CC7DB4700A46099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAB3476D20F93CEBC272B208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-知乎日报-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F8182B5EF92C31B552E0D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-知乎日报/Pods-知乎日报-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-知乎日报/Pods-知乎日报-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-知乎日报/Pods-知乎日报-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AC56FA2CC7DB4500A46099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25338E52CEA112C000D30F9 /* CollectionViewController.m in Sources */,
+				F25338AF2CDA4975000D30F9 /* LongCommentsSubModel.m in Sources */,
+				F25338D52CE9E05E000D30F9 /* CollectionController.m in Sources */,
+				F25338CD2CE62D19000D30F9 /* DatabaseManager.m in Sources */,
+				F25338EB2CEA147E000D30F9 /* CollectionArtcleCell.m in Sources */,
+				F2AC57092CC7DB4500A46099 /* ViewController.m in Sources */,
+				F2AA6E562CD3A5280071D43C /* WebViewController.m in Sources */,
+				F25338F12CEAE630000D30F9 /* CollectionWebview.m in Sources */,
+				F2AC57592CD109C200A46099 /* BeforeSubModel.m in Sources */,
+				F25338D82CE9E1B9000D30F9 /* CollectionView.m in Sources */,
+				F2AA6E5C2CD79B480071D43C /* TopWebView.m in Sources */,
+				F25338A32CD906BA000D30F9 /* CommentViewController.m in Sources */,
+				F25338A92CDA4938000D30F9 /* LongCommentsModel.m in Sources */,
+				F2AC57442CC7DD9700A46099 /* HomeModel.m in Sources */,
+				F25338E22CEA0E5E000D30F9 /* ItemCell.m in Sources */,
+				F2AC57532CCA8CB000A46099 /* TopSubModel.m in Sources */,
+				F2AC574D2CCA680300A46099 /* ArticleCell.m in Sources */,
+				F2AA6E5F2CD79B530071D43C /* TopWebViewController.m in Sources */,
+				F25338AC2CDA4940000D30F9 /* ShortCommentsModel.m in Sources */,
+				F25338E82CEA115C000D30F9 /* CollectionTableView.m in Sources */,
+				F25338DF2CEA0CDD000D30F9 /* IconCell.m in Sources */,
+				F2AC574A2CCA67F300A46099 /* ScrollerCell.m in Sources */,
+				F2AC57032CC7DB4500A46099 /* AppDelegate.m in Sources */,
+				F2AC57142CC7DB4700A46099 /* main.m in Sources */,
+				F25338B82CDA57FD000D30F9 /* CommentView.m in Sources */,
+				F2AC57562CD1099200A46099 /* BeforeModel.m in Sources */,
+				F2AC573B2CC7DD2C00A46099 /* HomeView.m in Sources */,
+				F25338BB2CDCF573000D30F9 /* CommentCell.m in Sources */,
+				F25338EE2CEAE61C000D30F9 /* CollectionWebviewController.m in Sources */,
+				F2AC57062CC7DB4500A46099 /* SceneDelegate.m in Sources */,
+				F2AC57412CC7DD7E00A46099 /* HomeViewController.m in Sources */,
+				F25338B22CDA50B6000D30F9 /* ShortCommentsSubModel.m in Sources */,
+				F2AA6E592CD73F980071D43C /* webView.m in Sources */,
+				F2AC57502CCA7DF200A46099 /* SubModel.m in Sources */,
+				F253389D2CD8FA5E000D30F9 /* ExtraModel.m in Sources */,
+				F2AC57472CC7E37700A46099 /* Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AC57152CC7DB4700A46099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AC571E2CC7DB4700A46099 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AC571F2CC7DB4700A46099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AC572A2CC7DB4700A46099 /* ____UITestsLaunchTests.m in Sources */,
+				F2AC57282CC7DB4700A46099 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2AC571B2CC7DB4700A46099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2AC56FD2CC7DB4500A46099 /* 知乎日报 */;
+			targetProxy = F2AC571A2CC7DB4700A46099 /* PBXContainerItemProxy */;
+		};
+		F2AC57252CC7DB4700A46099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2AC56FD2CC7DB4500A46099 /* 知乎日报 */;
+			targetProxy = F2AC57242CC7DB4700A46099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2AC570A2CC7DB4500A46099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AC570B2CC7DB4500A46099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2AC570F2CC7DB4700A46099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AC57102CC7DB4700A46099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2AC572B2CC7DB4700A46099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2AC572C2CC7DB4700A46099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2AC572E2CC7DB4700A46099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77DB2E8F1C3B3EFB89E29C95 /* Pods-知乎日报.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "知乎日报/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2AC572F2CC7DB4700A46099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD1786EA1A84083FA5E6D20 /* Pods-知乎日报.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "知乎日报/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2AC57312CC7DB4700A46099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/知乎日报.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/知乎日报";
+			};
+			name = Debug;
+		};
+		F2AC57322CC7DB4700A46099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/知乎日报.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/知乎日报";
+			};
+			name = Release;
+		};
+		F2AC57342CC7DB4700A46099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "知乎日报";
+			};
+			name = Debug;
+		};
+		F2AC57352CC7DB4700A46099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "知乎日报";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2AC56F92CC7DB4500A46099 /* Build configuration list for PBXProject "知乎日报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AC572B2CC7DB4700A46099 /* Debug */,
+				F2AC572C2CC7DB4700A46099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AC572D2CC7DB4700A46099 /* Build configuration list for PBXNativeTarget "知乎日报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AC572E2CC7DB4700A46099 /* Debug */,
+				F2AC572F2CC7DB4700A46099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AC57302CC7DB4700A46099 /* Build configuration list for PBXNativeTarget "知乎日报Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AC57312CC7DB4700A46099 /* Debug */,
+				F2AC57322CC7DB4700A46099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AC57332CC7DB4700A46099 /* Build configuration list for PBXNativeTarget "知乎日报UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AC57342CC7DB4700A46099 /* Debug */,
+				F2AC57352CC7DB4700A46099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2AC56F62CC7DB4500A46099 /* Project object */;
+}

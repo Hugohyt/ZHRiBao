@@ -1,0 +1,12 @@
+platform:ios,'9.0'
+
+target '知乎日报' do
+
+pod 'Masonry'
+pod 'LookinServer', :configurations => ['Debug']
+pod 'YYModel'
+pod 'AFNetworking', '~> 4.0'
+pod 'SDWebImage', '~> 5.0'
+pod 'FMDB'
+
+end
